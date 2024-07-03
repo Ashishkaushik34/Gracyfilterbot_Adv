@@ -170,7 +170,11 @@ Nᴀᴍᴇ - {}"""
 
 ᴇxᴀᴍᴘʟᴇ : Loki S01 or Loki S01E04 or Lucifer S03E24
 
-🚯 ᴅᴏɴᴛ ᴜꜱᴇ ➠ ':(!,./)</b>"""
+🚯 ᴅᴏɴᴛ ᴜꜱᴇ ➠ ':(!,./)</b>
+
+IF YOU DON'T FIND MOVIES REQUEST HERE 👇👇
+InlineKeyboardButton('REQUEST MOVIES ♐', url=https://t.me/Filmyvibe_Requests)
+"""
 
     I_CUD_NT = """ɪ ᴄᴏᴜʟᴅɴ'ᴛ ꜰɪɴᴅ ᴀɴʏ ᴍᴏᴠɪᴇ ʀᴇʟᴀᴛᴇᴅ ᴛᴏ {}.
 ᴘʟᴇᴀꜱᴇ ᴄʜᴇᴄᴋ ᴛʜᴇ ꜱᴘᴇʟʟɪɴɢ ᴏɴ ɢᴏᴏɢʟᴇ ᴏʀ ɪᴍᴅʙ..."""
@@ -178,6 +182,7 @@ Nᴀᴍᴇ - {}"""
     MVE_NT_FND = """ᴍᴏᴠɪᴇ ɴᴏᴛ ꜰᴏᴜɴᴅ ɪɴ ᴅᴀᴛᴀʙᴀꜱᴇ...
     ‣ REQUEST MOVIES : <a href='https://t.me/Filmyvibe34'>REQUEST MOVIES</a> 
     <code>[REQUEST MOVIES ♐](buttonurl:https://t.me/Filmyvibe34)</code>
+    InlineKeyboardButton('REQUEST MOVIES ♐', url=https://t.me/Filmyvibe_Requests
     """
 
     TOP_ALRT_MSG = """Cʜᴇᴄᴋɪɴɢ Fᴏʀ Mᴏᴠɪᴇ Iɴ Dᴀᴛᴀʙᴀsᴇ..."""
