@@ -89,7 +89,7 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
     EXTRAMOD_TXT = """ʜᴇʟᴘ: Exᴛʀᴀ Mᴏᴅᴜʟᴇs
 <b>ɴᴏᴛᴇ:</b>
 my features Stay here new features coming soon...  
- <b>✯ Maintained by : <a href=https://t.me/FilmyvibeOn>☢VJ☢</a></b>
+ <b>✯ Maintained by : <a href=https://t.me/FilmyvibeOn>☢Filmy Vibe☢</a></b>
   
  <b>✯ Join here : <a href=https://t.me/FilmyvibeOn>☢Join my updateds☢</a></b> 
   
