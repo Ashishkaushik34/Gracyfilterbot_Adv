@@ -173,16 +173,19 @@ Nᴀᴍᴇ - {}"""
 🚯 ᴅᴏɴᴛ ᴜꜱᴇ ➠ ':(!,./)</b>
 
 IF YOU DON'T FIND MOVIES REQUEST HERE 👇👇
-buttons = [[InlineKeyboardButton('REQUEST MOVIES ♐', url='https://t.me/Filmyvibe_Requests')]]
+  ‣ REQUEST MOVIES : <a href='https://t.me/Filmyvibe34'>REQUEST MOVIES</a>
 """
+request_movies_button = InlineKeyboardMarkup( [[InlineKeyboardButton('REQUEST MOVIES ♐', url='https://t.me/Filmyvibe_Requests')]] )
 
     I_CUD_NT = """ɪ ᴄᴏᴜʟᴅɴ'ᴛ ꜰɪɴᴅ ᴀɴʏ ᴍᴏᴠɪᴇ ʀᴇʟᴀᴛᴇᴅ ᴛᴏ {}.
 ᴘʟᴇᴀꜱᴇ ᴄʜᴇᴄᴋ ᴛʜᴇ ꜱᴘᴇʟʟɪɴɢ ᴏɴ ɢᴏᴏɢʟᴇ ᴏʀ ɪᴍᴅʙ..."""
 
     MVE_NT_FND = """ᴍᴏᴠɪᴇ ɴᴏᴛ ꜰᴏᴜɴᴅ ɪɴ ᴅᴀᴛᴀʙᴀꜱᴇ...
-    ‣ REQUEST MOVIES : <a href='https://t.me/Filmyvibe34'>REQUEST MOVIES</a> 
-   buttons =  [[InlineKeyboardButton('REQUEST MOVIES ♐', url='https://t.me/Filmyvibe_Requests')]]
+    ‣ REQUEST MOVIES : <a href='https://t.me/Filmyvibe34'>REQUEST MOVIES</a>
     """
+    request_movies_button = InlineKeyboardMarkup(
+    [[InlineKeyboardButton('REQUEST MOVIES ♐', url='https://t.me/Filmyvibe_Requests')]]
+)
 
     TOP_ALRT_MSG = """Cʜᴇᴄᴋɪɴɢ Fᴏʀ Mᴏᴠɪᴇ Iɴ Dᴀᴛᴀʙᴀsᴇ..."""
 
