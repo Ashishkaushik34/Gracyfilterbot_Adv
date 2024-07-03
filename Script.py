@@ -1,4 +1,4 @@
-l# Don't Remove Credit @VJ_Botz
+# Don't Remove Credit @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot @Tech_VJ
 # Ask Doubt on telegram @KingVJ01
 
@@ -172,8 +172,8 @@ Nᴀᴍᴇ - {}"""
 
 🚯 ᴅᴏɴᴛ ᴜꜱᴇ ➠ ':(!,./)</b>
 
-IF YOU DON'T FIND MOVIES REQUEST HERE 👇👇[
-InlineKeyboardButton('REQUEST MOVIES ♐', url='https://t.me/Filmyvibe_Requests')]
+IF YOU DON'T FIND MOVIES REQUEST HERE 👇👇
+buttons = [[InlineKeyboardButton('REQUEST MOVIES ♐', url='https://t.me/Filmyvibe_Requests')]]
 """
 
     I_CUD_NT = """ɪ ᴄᴏᴜʟᴅɴ'ᴛ ꜰɪɴᴅ ᴀɴʏ ᴍᴏᴠɪᴇ ʀᴇʟᴀᴛᴇᴅ ᴛᴏ {}.
@@ -181,8 +181,7 @@ InlineKeyboardButton('REQUEST MOVIES ♐', url='https://t.me/Filmyvibe_Requests'
 
     MVE_NT_FND = """ᴍᴏᴠɪᴇ ɴᴏᴛ ꜰᴏᴜɴᴅ ɪɴ ᴅᴀᴛᴀʙᴀꜱᴇ...
     ‣ REQUEST MOVIES : <a href='https://t.me/Filmyvibe34'>REQUEST MOVIES</a> 
-    <code>[REQUEST MOVIES ♐](buttonurl:https://t.me/Filmyvibe34)</code>
-    [InlineKeyboardButton('REQUEST MOVIES ♐', url='https://t.me/Filmyvibe_Requests')]
+   buttons =  [[InlineKeyboardButton('REQUEST MOVIES ♐', url='https://t.me/Filmyvibe_Requests')]]
     """
 
     TOP_ALRT_MSG = """Cʜᴇᴄᴋɪɴɢ Fᴏʀ Mᴏᴠɪᴇ Iɴ Dᴀᴛᴀʙᴀsᴇ..."""
