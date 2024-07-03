@@ -170,22 +170,12 @@ Nᴀᴍᴇ - {}"""
 
 ᴇxᴀᴍᴘʟᴇ : Loki S01 or Loki S01E04 or Lucifer S03E24
 
-🚯 ᴅᴏɴᴛ ᴜꜱᴇ ➠ ':(!,./)</b>
-
-IF YOU DON'T FIND MOVIES REQUEST HERE 👇👇
-  ‣ REQUEST MOVIES : <a href='https://t.me/Filmyvibe34'>REQUEST MOVIES</a>
-"""
-request_movies_button = InlineKeyboardMarkup( [[InlineKeyboardButton('REQUEST MOVIES ♐', url='https://t.me/Filmyvibe_Requests')]] )
+🚯 ᴅᴏɴᴛ ᴜꜱᴇ ➠ ':(!,./)</b>"""
 
     I_CUD_NT = """ɪ ᴄᴏᴜʟᴅɴ'ᴛ ꜰɪɴᴅ ᴀɴʏ ᴍᴏᴠɪᴇ ʀᴇʟᴀᴛᴇᴅ ᴛᴏ {}.
 ᴘʟᴇᴀꜱᴇ ᴄʜᴇᴄᴋ ᴛʜᴇ ꜱᴘᴇʟʟɪɴɢ ᴏɴ ɢᴏᴏɢʟᴇ ᴏʀ ɪᴍᴅʙ..."""
 
-    MVE_NT_FND = """ᴍᴏᴠɪᴇ ɴᴏᴛ ꜰᴏᴜɴᴅ ɪɴ ᴅᴀᴛᴀʙᴀꜱᴇ...
-    ‣ REQUEST MOVIES : <a href='https://t.me/Filmyvibe34'>REQUEST MOVIES</a>
-    """
-    request_movies_button = InlineKeyboardMarkup(
-    [[InlineKeyboardButton('REQUEST MOVIES ♐', url='https://t.me/Filmyvibe_Requests')]]
-)
+    MVE_NT_FND = """ᴍᴏᴠɪᴇ ɴᴏᴛ ꜰᴏᴜɴᴅ ɪɴ ᴅᴀᴛᴀʙᴀꜱᴇ..."""
 
     TOP_ALRT_MSG = """Cʜᴇᴄᴋɪɴɢ Fᴏʀ Mᴏᴠɪᴇ Iɴ Dᴀᴛᴀʙᴀsᴇ..."""
 
