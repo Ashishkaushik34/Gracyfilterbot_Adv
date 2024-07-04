@@ -266,7 +266,8 @@ async def start(client, message):
                         quote=True,
                         disable_web_page_preview=True,
                         reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🚀 Fast Download 🚀", url=download),  # we download Link
-                                                            InlineKeyboardButton('🖥️ Watch online 🖥️', url=stream)]])  # web stream Link
+                                                            InlineKeyboardButton('🖥️ Watch online 🖥️', url=stream)]],[InlineKeyboardButton("Movie Request Group ♐", url="https://t.me/Filmyvibe_Requests")])  # web stream Link
+                                                         
                     )
                 if STREAM_MODE == True:
                     button = [[
@@ -274,6 +275,8 @@ async def start(client, message):
                         InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
                     ],[
                         InlineKeyboardButton('𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥', url="https://t.me/BlazeTitan")
+                    ],[
+                        InlineKeyboardButton('MOVIES REQUEST ♐', url="https://t.me/Filmyvibe_Requests")
                     ],[
                         InlineKeyboardButton("🚀 Fast Download 🚀", url=download),  # we download Link
                         InlineKeyboardButton('🖥️ Watch online 🖥️', url=stream)
