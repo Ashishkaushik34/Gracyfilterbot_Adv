@@ -809,11 +809,11 @@ async def settings(client, message):
             [
                 InlineKeyboardButton(
                     'Rᴇsᴜʟᴛ Pᴀɢᴇ',
-                    callback_data=f'setgs#Tᴇxᴛ#{settings["Tᴇxᴛ"]}#{grp_id}',
+                    callback_data=f'setgs#Tᴇxᴛ#{settings["text"]}#{grp_id}',
                 ),
                 InlineKeyboardButton(
-                    'Tᴇxᴛ' if settings["Tᴇxᴛ"] else 'Button',
-                    callback_data=f'setgs#button#{settings["button"]}#{grp_id}',
+                    'Tᴇxᴛ' if settings["text"] else 'Bᴜᴛᴛᴏɴ',
+                    callback_data=f'setgs#text#{settings["text"]}#{grp_id}',
                 ),
             ],
             [
