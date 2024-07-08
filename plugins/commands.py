@@ -22,7 +22,7 @@ join_db = JoinReqs
 
 @Client.on_message(filters.command("start") & filters.incoming)
 async def start(client, message):
-    await message.react(emoji="🔥")
+    await message.react(emoji=random.choice(EMOJIS))
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [[
             InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
@@ -809,11 +809,11 @@ async def settings(client, message):
             [
                 InlineKeyboardButton(
                     'Rᴇsᴜʟᴛ Pᴀɢᴇ',
-                    callback_data=f'setgs#Tᴇxᴛ#{settings["text"]}#{grp_id}',
+                    callback_data=f'setgs#button#{settings["button"]}#{grp_id}',
                 ),
                 InlineKeyboardButton(
-                    'Tᴇxᴛ' if settings["text"] else 'Bᴜᴛᴛᴏɴ',
-                    callback_data=f'setgs#text#{settings["text"]}#{grp_id}',
+                    'Bᴜᴛᴛᴏɴ' if settings["button"] else 'Tᴇxᴛ',
+                    callback_data=f'setgs#button#{settings["button"]}#{grp_id}',
                 ),
             ],
             [
