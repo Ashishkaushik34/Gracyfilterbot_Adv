@@ -15,28 +15,18 @@ from utils import get_settings, pub_is_subscribed, get_size, is_subscribed, save
 from database.connections_mdb import active_connection
 from urllib.parse import quote_plus
 from TechVJ.util.file_properties import get_name, get_hash, get_media_file_size
-
 logger = logging.getLogger(__name__)
 
 BATCH_FILES = {}
 join_db = JoinReqs
 
-# Initialize the bot client
-app = Client("my_bot")
-
-@app.on_message(filters.command("start") & filters.incoming)
+@Client.on_message(filters.command("start") & filters.incoming)
 async def start(client, message):
     emojis = ["🔥", "😱", "♥️"]  # List of emojis to react with
 
     for emoji in emojis:
         try:
             await message.react(emoji)
-        except Exception as e:
-            print(f"Failed to react with {emoji}: {e}")
-
-# Run the bot
-app.run()
-
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [[
             InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
