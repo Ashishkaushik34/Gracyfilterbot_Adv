@@ -17,15 +17,15 @@ logging.basicConfig(
 logging.getLogger("aiohttp").setLevel(logging.ERROR)
 logging.getLogger("aiohttp.web").setLevel(logging.ERROR)
 
-from pyrogram import Client, idle
+from pyrogram import Client, idle 
 from pyromod import listen
 from database.ia_filterdb import Media
 from database.users_chats_db import db
 from info import *
 from utils import temp
 from typing import Union, Optional, AsyncGenerator
-from Script import script
-from datetime import date, datetime
+from Script import script 
+from datetime import date, datetime 
 from aiohttp import web
 from plugins import web_server
 
@@ -35,7 +35,9 @@ from TechVJ.bot.clients import initialize_clients
 
 ppath = "plugins/*.py"
 files = glob.glob(ppath)
+TechVJBot.start()
 loop = asyncio.get_event_loop()
+
 
 async def start():
     print('\n')
@@ -75,6 +77,7 @@ async def start():
     bind_address = "0.0.0.0"
     await web.TCPSite(app, bind_address, PORT).start()
     await idle()
+
 
 if __name__ == '__main__':
     try:
