@@ -102,8 +102,8 @@ VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/How_To_Open_Linkl
 
 # Shortlink Info
 SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', True))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'ziplinker.net')
-SHORTLINK_API = environ.get('SHORTLINK_API', '18ee90a434c7475e5198ce92fe39e78fd4d07680')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'arolinks.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', '646d0b0040040000abb199c861c54e4f4fb9c514')
 
 # Others
 MAX_B_TN = environ.get("MAX_B_TN", "5")
